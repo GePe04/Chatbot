@@ -36,7 +36,7 @@ pip3 install ctransformers
 
 ### Chainlit Installation
 
-Chainlit hilft uns, einen Chat mit Python zu erstellen.
+Chainlit hilft uns, eine Graphische Oberfläche für unseren Chatbot zu erstellen.
 
 Da ich auf einem MacBook mit M1 Chip arbeite, muss ich ein environment erstellen.
 
