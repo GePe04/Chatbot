@@ -30,7 +30,29 @@ pip3 --version
 
 ctransformers ist eine Python-Bibliothek für die Verwendung von Transformer-Modellen.
 
-
 ```bash
 pip3 install ctransformers
+```
+
+### Chainlit Installation
+
+Chainlit hilft uns, einen Chat mit Python zu erstellen.
+
+Da ich auf einem MacBook mit M1 Chip arbeite, muss ich ein environment erstellen.
+
+```bash
+python3 -m venv chainlit-env
+```
+Dann muss das environment aktiviert werden:
+```bash
+source chainlit-env/bin/activate
+```
+Wenn man das environment nicht mehr braucht, muss man es deaktivieren:
+```bash
+deactivate
+```
+
+Sobald das environment aktiviert ist, kann Chainlit installiert werden:
+```bash
+pip3 install chainlit
 ```
