@@ -1,14 +1,33 @@
-# Welcome to Chainlit! 🚀🤖
+# Willkommen bei GaPeAI 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hier ist ein einfacher Chatbot, der dir bei Fragen zur Seite steht. 
+Er wurde mit einem Orca Mini 3B Modell trainiert und kann dir bei verschiedenen Themen helfen.
 
-## Useful Links 🔗
+Stelle einfach deine Frage in das Textfeld unten und der Bot wird dir antworten! 
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## Features ⭐
+- Schnelle und präzise Antworten
+- Einfache Bedienung
+- Unterstützung bei verschiedenen Themengebieten
+- Benutzerfreundliche Oberfläche
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+## Wie nutze ich den Bot? 🤔
+1. Gib deine Frage in das Textfeld ein
+2. Drücke Enter oder klicke auf Senden
+3. Warte auf die Antwort des Bots
+4. Bei Bedarf kannst du Folgefragen stellen
 
-## Welcome screen
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+## Nützliche Links 🔗
+GitHub Repository: https://github.com/GePe04/Chatbot
+
+Hugging Face Modell: https://huggingface.co/zoltanctoth/orca_mini_3B-GGUF
+
+Chainlit: https://docs.chainlit.io/get-started/overview
+
+## Informationen
+Dies ist ein Chatbot welches von mir 'Gaetano Pesce' erstellt wurde. 
+
+Dieser Chatbot wurde mit einem Hugging Face Modell erstellt, welches weiter unten aufgeführt ist.
+
+Damit der Chatbot auch eine Grafische Oberfläche erhält, wurde Chainlit verwendet.
