@@ -56,3 +56,15 @@ Sobald das environment aktiviert ist, kann Chainlit installiert werden:
 ```bash
 pip3 install chainlit
 ```
+
+## Chatbot starten
+
+Um den Chatbot zu starten, müssen wir in dem Environment chainlit-env sein und dann den Befehl ausführen:
+```bash
+chainlit run chat.py
+```
+Wenn dieser Befehl ausgeführt wird, öffnet sich automatisch ein neues Fenster in der Browser.
+
+Das bedeutet der Chatbot ist jetzt bei mir lokal erreichbar, unter der URL: http://localhost:8000
+
+Nun kann man mit dem Chatbot interagieren.
