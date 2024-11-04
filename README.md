@@ -8,6 +8,13 @@ Im verlauf dieser Arbeit wird sich diese README.md ein paar mal verändern und d
 
 ## Installieren
 
+### Python Installation auf macOS
+
+Python ist eine Programmiersprache, die ich für diese Arbeit brauche.
+```bash
+brew install python3
+```
+
 Sicher stellen das ich Python habe:
 ```bash
 python3 --version
