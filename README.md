@@ -64,11 +64,36 @@ Sobald das environment aktiviert ist, kann Chainlit installiert werden:
 pip3 install chainlit
 ```
 
-## Chatbot starten
+## Chatbot v1 starten
+Um das LLM zu testen, habe ich ein kleines Skript erstellt welches eine hartkodierte Frage an das LLM schickt und die Antwort ausgibt.
+
+Testen kann man das Skript mit:
+```bash
+python3 chatbot_v1.py
+```
+
+Die ausgabe muss beinhalten das die Hauptstadt von der Schweiz Bern ist, funktioniert das Skript so wie es soll.
+
+## Chatbot v2 starten
+Bei Chatbot v2 werde ich nur testen ob chainlit so funktioniert wie es soll.
+
+Um dieses Skript zu testen, muss ich zuerst das Environment aktivieren:
+```bash
+source chainlit-env/bin/activate
+```
+
+Dann kann das Skript gestartet werden:
+```bash
+chainlit run chatbot_v2.py
+```
+
+Wenn sich dann ein neues Fenster öffnet, funktioniert das Skript so wie es soll.
+
+## Chatbot v3 starten
 
 Um den Chatbot zu starten, müssen wir in dem Environment chainlit-env sein und dann den Befehl ausführen:
 ```bash
-chainlit run chat.py
+chainlit run chatbot_v3.py
 ```
 Wenn dieser Befehl ausgeführt wird, öffnet sich automatisch ein neues Fenster in der Browser.
 
