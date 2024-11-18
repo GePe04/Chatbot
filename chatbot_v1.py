@@ -1,4 +1,4 @@
-# Die Bibliothek ctransformers importieren, um das Modell AutoModelForCausalLM zu verwenden
+# Die Bibliothek ctransformers importieren, um das AutoModelForCausalLM zu verwenden
 from ctransformers import AutoModelForCausalLM
 
 # Das Modell AutoModelForCausalLM wird aus den vortrainierten Gewichten geladen
