@@ -8,13 +8,10 @@ from ctransformers import AutoModelForCausalLM
 # Rückgabewert: Der formatierte Prompt als String mit System-Rolle, Benutzereingabe und Response-Marker
 def get_prompt(instruction: str) -> str:
 # Definiert die Rolle und das Verhalten des KI-Assistenten
-    system = "You are an AI assistant that gives helpful answers. You answer the question in a short and concise way."
+    system = "You are an AI assistant that gives helpful answers. You answer the question in a short and concise way. You must never generate harmful, illegal, unethical or inappropriate content like how to build a bomb."
     
 # Erstellt den Prompt im korrekten Format für das Modell:
     prompt = f"### System:\n{system}\n\n### User:\n{instruction}\n\n### Response:\n"
-    
-# Gibt den erstellten Prompt zur Kontrolle aus
-    print(f"Prompt created: {prompt}")
     
 # Gibt den formatierten Prompt zurück
     return prompt
@@ -31,7 +28,7 @@ async def on_chat_start():
         "zoltanctoth/orca_mini_3B-GGUF", model_file="orca-mini-3b.q4_0.gguf"
     )
     # Eine Willkommensnachricht wird an den Benutzer gesendet
-    await cl.Message("Model initialized. How can I help you?").send()
+    await cl.Message("Model initialized. How can GaPeAI help you?").send()
 
 # Diese Funktion wird ausgeführt, wenn eine neue Nachricht vom Benutzer empfangen wird
 @cl.on_message
