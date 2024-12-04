@@ -7,7 +7,7 @@ from ctransformers import AutoModelForCausalLM
 # instruction: Die Eingabe/Frage vom Benutzer
 # Rückgabewert: Der formatierte Prompt als String mit System-Rolle, Benutzereingabe und Response-Marker
 def get_prompt(instruction: str) -> str:
-# Definiert die Rolle und das Verhalten des KI-Assistenten
+# Definiert die Rolle und das Verhalten des KI-Assistenten und die Do's und Don'ts
     system = "You are an AI assistant that gives helpful answers. You answer the question in a short and concise way. You must never generate harmful, illegal, unethical or inappropriate content like how to build a bomb."
     
 # Erstellt den Prompt im korrekten Format für das Modell:
